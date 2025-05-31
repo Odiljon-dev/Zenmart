@@ -581,51 +581,21 @@
   color: rgb(98, 105, 116);
 }
 
-/* PAGINOATION */
-
-.container .pagionation_box {
-  margin-top: 30px;
+.adv_frame {
+  margin-top: 90px;
   width: 100%;
-  height: auto;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.container .pagionation_box .pagionation-main {
-  width: auto;
-  height: 24px;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.container .pagionation-main .pagionation_dot {
-  margin: 0 20px;
-  display: flex;
-  flex-direction: row;
-}
-
-.container .pagionation_dot .dot {
-  width: 20px;
-  height: 20px;
+  height: 120px;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
-}
 
-.container .pagionation_dot .dot.active {
-  border: 2px solid rgb(17, 33, 55);
-}
+  background-color: #e5edff;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
 
-.container .pagionation_dot .dot div {
-  width: 4px;
-  height: 4px;
-  background: rgb(17, 33, 55);
-  border-radius: 50%;
+  color: rgb(0, 83, 246);
 }

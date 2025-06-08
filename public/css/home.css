@@ -1,6 +1,5 @@
 /* HOMEPAGE */
 .home_page {
-  padding-bottom: 60px;
   display: flex;
   flex-direction: column;
 }
@@ -826,6 +825,8 @@
   flex-direction: row;
   justify-content: center;
 
+  border: none;
+  background-size: cover;
   background-image: url(../images/icons/event_bg.png);
 }
 

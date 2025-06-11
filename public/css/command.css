@@ -503,6 +503,7 @@ p {
   flex-direction: row;
   align-items: center;
 
+  box-sizing: border-box;
   border: 1px solid rgb(234, 234, 234);
   border-radius: 6px;
   background: rgb(255, 255, 255);
@@ -534,4 +535,26 @@ p {
   line-height: 40px;
 
   color: rgb(4, 30, 66);
+}
+
+/* PAGE ROUTER */
+
+.page_router {
+  margin: 20px 0px;
+  width: 1320px;
+}
+
+.page_router span {
+  font-family: var(--font);
+  font-style: normal;
+  font-size: 14px;
+  color: rgb(4, 30, 66);
+  font-weight: 400;
+  line-height: 22px;
+
+  color: rgb(4, 30, 66);
+}
+
+.page_router span.drop {
+  margin: 0px 10px;
 }
